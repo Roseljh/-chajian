@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html,body,.box{
+	width: 100%;
+}
+body{
+	z-index: 1;
+}
+ul{
+	list-style: none;
+}
+.mark{
+	width: 100%;
+	background:rgba(0,0,0,0.5);
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.dialog{
+	width: 240px;
+	height: 80px;
+	background:rgba(255,255,255,0.8);	
+	border: 1px solid black;
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	box-shadow: 0 0 1px #999;
+}
+.dialog h2{	
+	height: 45px;
+	text-align: center;
+	line-height:45px;
+	font-size: 20px;
+	font-weight: normal;
+	background: #666;
+	color:#fff;
+	
+}
+p{
+	width: 100%;
+	height:35px;
+	background: #ccc;
+	display: -webkit-flex;
+}
+p span{
+	-webkit-flex:1;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
